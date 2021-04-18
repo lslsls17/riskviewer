@@ -1,33 +1,20 @@
 {
-  "name": "riskviewer.github.io",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "with-chakra-ui",
+  "version": "0.1.0",
   "scripts": {
-    "watch": "tsc -w",
-    "dev": "nodemon dist/index.js",
-    "start": "node dist/index.js",
-    "start2": "ts-node src/index.ts",
-    "dev2": "nodemon --exec ts-node src/index.ts"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lslsls17/riskviewer.github.io.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lslsls17/riskviewer.github.io/issues"
-  },
-  "homepage": "https://github.com/lslsls17/riskviewer.github.io#readme",
-  "devDependencies": {
-    "@types/node": "^14.14.41",
-    "nodemon": "^2.0.7",
-    "ts-node": "^9.1.1",
-    "typescript": "^4.2.4"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "yahoo-stock-prices": "^1.1.0"
-  }
+    "@chakra-ui/icons": "^1.0.0",
+    "@chakra-ui/react": "^1.4.2",
+    "@emotion/react": "^11.0.0",
+    "@emotion/styled": "^11.0.0",
+    "framer-motion": "^4.0.3",
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "license": "MIT"
 }
