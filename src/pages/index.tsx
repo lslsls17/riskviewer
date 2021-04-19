@@ -44,6 +44,11 @@ export function CallToActionWithAnnotation() {
             portfolio? Do you know how fast is recovery? Let me tell you
             assuming you are in these tough days.
           </Text>
+          <Text color={"orange.500"}>
+            Investment is all about practice, patience and persistence. I hope
+            the tool can warn you on your risk when things are good and
+            encourage you when the days are tough.
+          </Text>
           <Stack
             direction={"column"}
             spacing={3}
@@ -60,7 +65,7 @@ export function CallToActionWithAnnotation() {
                 bg: "green.500",
               }}
             >
-              Get Started
+              <a href="/risk">Get Started</a>
             </Button>
             <Box>
               <Icon
