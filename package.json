@@ -7,15 +7,22 @@
     "start": "next start"
   },
   "dependencies": {
+    "@babel/core": "^7.13.16",
     "@chakra-ui/icons": "^1.0.0",
     "@chakra-ui/react": "^1.4.2",
     "@emotion/react": "^11.0.0",
     "@emotion/styled": "^11.0.0",
+    "@progress/kendo-drawing": "^1.10.0",
+    "@progress/kendo-licensing": "^1.1.4",
+    "@progress/kendo-react-charts": "^4.5.0",
+    "@progress/kendo-react-intl": "^4.5.0",
     "framer-motion": "^4.0.3",
+    "hammerjs": "^2.0.8",
     "next": "latest",
     "react": "^17.0.2",
     "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
     "styled-components": "^5.2.3"
   },
   "license": "MIT",
